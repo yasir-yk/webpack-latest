@@ -1,0 +1,43 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development --open",
+    "format": "npm run format:styles",
+    "format:styles": "prettier --write ./dist/**/**/*.{css,scss}",
+    "postinstall": "git clone https://github.com/yasir-yk/bootstrap5.git ./dist/markup"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "slick-carousel": "^1.8.1",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "blade-formatter": "^1.28.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-minimizer-webpack-plugin": "^3.8.3",
+    "image-webpack-loader": "^8.1.0",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "imagemin-webpack": "^5.1.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.0.2",
+    "sharp": "^0.32.6",
+    "style-loader": "^3.3.1",
+    "tiny-slider": "^2.9.4",
+    "webpack": "^5.74.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}

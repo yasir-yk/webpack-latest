@@ -1,0 +1,29 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/style.scss ***!
+  \**************************************************************************************************************/
+body {
+  background: lightblue;
+  background-size: cover;
+  color: #000;
+}
+body h1 {
+  color: darkblue;
+}
+body h2 {
+  color: #000;
+}
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/all.scss ***!
+  \************************************************************************************************************/
+h3 {
+  background: blue;
+  color: #fff;
+}
+h3 a {
+  color: yellow;
+  background: gray;
+}
+
+h5 {
+  font-siz: 20px;
+}
